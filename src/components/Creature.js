@@ -3,12 +3,12 @@ import React from 'react';
 function Creature(props) {
     return (
         <div className="creature">
-            <span className="category">
+            <h3 className="category">
                 {props.category}
-            </span>
-            <span className="result">
+            </h3>
+            <p className="result">
                 {props.name}
-            </span>
+            </p>
         </div>
     );
 }

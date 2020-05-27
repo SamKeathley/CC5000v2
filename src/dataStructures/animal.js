@@ -384,6 +384,11 @@ const mammal = [
         id: 22,
         category: "Mammal",
         name: "Otter"
+    },
+    {
+        id: 23,
+        category: "Mammal",
+        name: "Hyena"
     }
 ]
 
