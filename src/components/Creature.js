@@ -1,14 +1,17 @@
 import React from 'react';
 
 function Creature(props) {
+    function handleClick(event) {
+        console.log("Clicked");
+
+        event.preventDefault();
+    }
+
     return (
         <div className="creature">
-            <h3 className="category">
-                {props.category}
-            </h3>
-            <p className="result">
-                {props.name}
-            </p>
+            <h3>{props.category}</h3>
+            <p>{props.name}</p>
+            <button onClick={handleClick}>Get Creature</button>
         </div>
     );
 }
