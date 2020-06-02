@@ -1,4 +1,5 @@
-const sea = [
+const animals = [
+    // Water Creatures
     "Mollusk",
     "Crab / Lobster",
     "Squid / Octopus",
@@ -12,20 +13,18 @@ const sea = [
     "Leech",
     "Coral / Anemone",
     "Shark",
-    "Singray / Manta Ray"
-]
+    "Singray / Manta Ray",
 
-const reptile = [
+    // Reptiles
     "Crocodile",
     "Gila",
     "Frog",
     "Newt",
     "Lizard",
     "Snake",
-    "Turtle"
-]
+    "Turtle",
 
-const bug = [
+    // Bugs
     "Worm",
     "Ant",
     "Mosquito",
@@ -39,10 +38,9 @@ const bug = [
     "Caterpillar",
     "Beetle",
     "Flea / Mite",
-    "Spider"
-]
+    "Spider",
 
-const bird = [
+    //Birds
     "Duck",
     "Heron",
     "Finch",
@@ -60,10 +58,9 @@ const bird = [
     "Dove",
     "Pigeon",
     "Owl",
-    "Puffin"
-]
+    "Puffin",
 
-const mammal = [
+    // Mammals
     "Sheep / Ram",
     "Cow / Bull",
     "Mouse / Rat",
@@ -89,4 +86,4 @@ const mammal = [
     "Hyena"
 ]
 
-export { sea, reptile, bug, bird, mammal };
+export default animals;
