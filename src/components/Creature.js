@@ -11,32 +11,35 @@ function Creature() {
     };
 
     return (
-        <table>
-            <tr>
-            <th>Animal</th>
-            <th>Plant Life</th>
-            <th>Environmental</th>
-            <th>Elemental</th>
-            </tr>
-            <tr>
-            <td>{shuffle(animals)}</td>
-            <td>{shuffle(plants)}</td>
-            <td>{shuffle(environments)}</td>
-            <td>{shuffle(elements)}</td>
-            </tr>
-            <tr>
-                <th>Personality</th>
-                <th>Weapon</th>
-                <th>Equipment</th>
-                <th>Tools</th>
-            </tr>
-            <tr>
-            <td>{shuffle(personalities)}</td>
-            <td>{shuffle(weapons)}</td>
-            <td>{shuffle(equipment)}</td>
-            <td>{shuffle(tools)}</td>
-            </tr>
-      </table>
+        <div className="table">
+            <div className="tableBody">
+                <div className="tableRow">
+                    <h3 className="tableHead">Animal</h3>
+                    <h3 className="tableHead">Plant Life</h3>
+                    <h3 className="tableHead">Environmental</h3>
+                    <h3 className="tableHead">Elemental</h3>
+                <div className="tableRow">
+                    <p className="tableCell">{shuffle(animals)}</p>
+                    <p className="tableCell">{shuffle(plants)}</p>
+                    <p className="tableCell">{shuffle(environments)}</p>
+                    <p className="tableCell">{shuffle(elements)}</p>
+                </div>
+                </div>
+
+                <div>
+                    <div className="tableRow">
+                        <h3 className="tableHead">Personality</h3>
+                        <h3 className="tableHead">Weapon</h3>
+                        <h3 className="tableHead">Equipment</h3>
+                        <h3 className="tableHead">Tools</h3>
+                            <p className="tableCell">{shuffle(personalities)}</p>
+                            <p className="tableCell">{shuffle(weapons)}</p>
+                            <p className="tableCell">{shuffle(equipment)}</p>
+                            <p className="tableCell">{shuffle(tools)}</p>
+                    </div>
+                </div>
+            </div>
+        </div>
     );
 }
 export default Creature;
