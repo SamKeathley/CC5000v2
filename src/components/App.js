@@ -1,7 +1,9 @@
 import React from 'react';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import '../custom.scss';
+import '../App.scss';
 import Header from './Header';
 import Footer from './Footer';
-import D20 from './Logo';
 import Creature from "./Creature";
 
 function App() {
@@ -9,7 +11,6 @@ function App() {
     return (
         <div>
             <Header />
-            <D20 />
             <Creature />
             <Footer />
         </div>

@@ -1,6 +1,6 @@
 const plants = [
     "Seaweed",
-    "Fern",,
+    "Fern",
     "Desert Cacti",
     "Jade",
     "Flower",
