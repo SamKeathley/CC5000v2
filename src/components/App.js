@@ -6,14 +6,16 @@ import Header from './Header';
 import Footer from './Footer';
 import Creature from "./Creature";
 import Welcome from "./Welcome";
+import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 
 function App() {
+    
 
     return (
         <div>
             <Header />
-            <Welcome />
-            <Creature />
+            <Route exact path="/" component={Welcome} />
+            <Route exact path='/creature' component={Creature} />
             <Footer />
         </div>
     )
