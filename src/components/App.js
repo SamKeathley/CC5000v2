@@ -1,15 +1,18 @@
 import React from 'react';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import '../custom.scss';
+import '../App.scss';
 import Header from './Header';
 import Footer from './Footer';
-import D20 from './Logo';
 import Creature from "./Creature";
+import Welcome from "./Welcome";
 
 function App() {
 
     return (
         <div>
             <Header />
-            <D20 />
+            <Welcome />
             <Creature />
             <Footer />
         </div>
