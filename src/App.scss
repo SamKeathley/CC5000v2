@@ -29,24 +29,36 @@ ul {
   padding-top: 1.5rem;
 }
 
-.table {
-    .categories {
-        font-family: $head-font;
-        background-color: $accent-color-pink;
-        padding: 2rem;
-        border: 1px solid $accent-color-dark;
-        font-weight: 700;
-    }
-    .results {
-       padding: 3rem 0;
-       background-color: $main-color;
-       border: 1px solid $subtle-color;      
-    }
+
+.creatureSection {
+  margin: auto -16px;
+  padding: 5em;
+  text-align: center; 
 }
+
+.creatureSection {
+  p {
+    padding: 3.5rem;
+  }
+}
+
+
+.categories {
+    font-family: $head-font;
+    background-color: $accent-color-pink;
+    border: 1px solid $accent-color-dark;
+    font-weight: 700;
+    padding: 3em;
+}
+.results {
+    padding: 3rem 0;
+    background-color: $main-color;
+}
+
 
 svg {
     color: $accent-color-dark;
-    animation: svg 3s infinite linear;
+    animation: svg 5s infinite linear;
     transform-origin: center;
     transform-box: fill-box;
   }
@@ -69,16 +81,6 @@ svg {
   text-align: center;
 }
 
-.creatureSection {
-  margin: auto -16px;
-  padding: 5em; 
-}
-
-.creatureSection {
-  p {
-    padding: 3.5rem;
-  }
-}
 
 footer {
   padding: 2rem;
@@ -99,8 +101,15 @@ footer {
   p {
     font-size: 2em;
   }
-  .table {
-    font-size: 1.5em;
+  .firstRow {
+    p {
+      font-size: 1.5em;
+    }
+  }
+  .secondRow {
+    p {
+      font-size: 1.5em;
+    }
   } 
   ul {
     font-size: 2em;
@@ -124,8 +133,15 @@ footer {
   ul {
     font-size: 1em;
   }
-  .table {
-    font-size: 1.1em;
+  .firstRow {
+    p {
+      font-size: 1.1em;
+    }
+  }
+  .secondRow {
+    p {
+      font-size: 1.1em;
+    }
   } 
   footer {
     p {

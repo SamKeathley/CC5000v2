@@ -6,7 +6,7 @@ import Header from './Header';
 import Footer from './Footer';
 import Creature from "./Creature";
 import Welcome from "./Welcome";
-import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
+import {Route} from 'react-router-dom';
 
 function App() {
     
