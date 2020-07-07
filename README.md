@@ -10,5 +10,6 @@ With this generator, you will have several options to choose from to make your v
 
 ### Visit
 ---
-[Creature Generator](https://aqueous-falls-73651.herokuapp.com/)
-Note: Still under construction, link might fail occasionally. 
+[Creature Generator](https://creature-generator.herokuapp.com/)
+
+**NOTE: This is a work in progress and will be updated frequently.**
