@@ -17,31 +17,20 @@ body {
 h3 {
     padding-bottom: 2em;
 }
-
 h1 {
   font-family: $head-font;
 }
-
-
-ul {
-  list-style-type: none;
-  text-align: justify;
-  padding-top: 1.5rem;
-}
-
-
 .creatureSection {
+  position: relative;
   margin: auto -16px;
   padding: 5em;
   text-align: center; 
 }
-
 .creatureSection {
   p {
     padding: 3.5rem;
   }
 }
-
 svg {
     color: $accent-color-dark;
     animation: svg 5s infinite linear;
@@ -57,48 +46,43 @@ svg {
       transform: rotateZ(360deg);
     }
   }
-
 .welcomePage {
   padding: 6em; 
 }
-
 .welcomeBlurb {
   padding: 2rem;
   text-align: center;
 }
-
-
 footer {
   padding: 2rem;
   margin: auto -16px;
   bottom: 0;
   width: 100%;
   height: 2.5rem;
+  border-top: 1px double $subtle-color;
   background-color: $main-color;
   color: $subtle-color;
+  position: fixed;
 }
 
-@media screen and (min-width: 601px) {
-  header{
+@media screen and (min-width: 1250px) {
+  .welcomePage {
     h1 {
-      font-size: 5em;
+      font-size: 3em;
     }
+    p {
+      font-size: 2em;
+    }
+  }
+}
+
+@media screen and (min-width: 955px) {
+  .welcomePage{
+    padding: 4em;
   }
   p {
-    font-size: 2em;
-  }
-  .firstRow {
-    p {
-      font-size: 1.5em;
-    }
-  }
-  .secondRow {
-    p {
-      font-size: 1.5em;
-    }
-  } 
-  ul {
-    font-size: 2em;
+    font-size: 3em;
+    margin-bottom: 1em;
   }
   footer {
     p {
@@ -106,5 +90,36 @@ footer {
     }
   }
 }
+
+@media screen and (min-width: 590px) {
+  .creatureSection{
+    p {
+      font-size: 2em;
+      margin-bottom: 1em;
+      padding-top: 2rem;
+      padding-bottom: 0;
+    }
+  }
+  footer {
+    p {
+      font-size: 1.2em;
+    }
+  }
+}
+
+@media screen and (min-width: 450px) {
+  .creatureSection{
+    h1 {
+      font-size: 3em;
+    }
+    p {
+      font-size: 2.5em;
+      margin-bottom: 1em;
+      padding-top: 2rem;
+      padding-bottom: 0;
+    }
+  }
+}
+
 
 

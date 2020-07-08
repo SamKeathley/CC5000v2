@@ -6,10 +6,10 @@ import Header from './Header';
 import Footer from './Footer';
 import Creature from "./Creature";
 import Welcome from "./Welcome";
-import {Route} from 'react-router-dom';
+import { Route } from 'react-router-dom';
 
 function App() {
-    
+
 
     return (
         <div>

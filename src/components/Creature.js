@@ -17,10 +17,10 @@ function Creature() {
         <div className="creatureSection">
             <Container fluid>
                 <h1>You should draw...</h1>
-                <p>{shuffle(personalities)} {shuffle(animals)} mixed with {shuffle(plants)} that has {shuffle(equipment)} and a {shuffle(weapons)} in {shuffle(environments)}</p>
+                <p>{shuffle(personalities)} <strong>{shuffle(animals)}</strong> mixed with <strong>{shuffle(plants)}</strong> that has <strong>{shuffle(equipment)}</strong> and a <strong>{shuffle(weapons)}</strong> in <strong>{shuffle(environments)}</strong>.</p>
                 <p><strong>Don't like your results? Try again.</strong></p>
                 <Link to="/creature">
-                    <Button variant="outline-dark" size="lg">Redo</Button>
+                    <Button className="button" variant="outline-dark" size="lg">Redo</Button>
                 </Link>
             </Container>
         </div>

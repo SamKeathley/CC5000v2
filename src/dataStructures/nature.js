@@ -40,7 +40,7 @@ const environments = [
     "an asteroid",
     "a solar flare",
     "some kind of galaxy form",
-    "a active volcano",
+    "an active volcano",
     "a new planet",
     "a cloud",
     "a cyclone",
