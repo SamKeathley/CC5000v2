@@ -42,20 +42,6 @@ ul {
   }
 }
 
-
-.categories {
-    font-family: $head-font;
-    background-color: $accent-color-pink;
-    border: 1px solid $accent-color-dark;
-    font-weight: 700;
-    padding: 3em;
-}
-.results {
-    padding: 3rem 0;
-    background-color: $main-color;
-}
-
-
 svg {
     color: $accent-color-dark;
     animation: svg 5s infinite linear;
