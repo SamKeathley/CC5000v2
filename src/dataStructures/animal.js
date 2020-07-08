@@ -98,7 +98,8 @@ const animals = [
     "pink fairy armadillo",
     "panda",
     "otter",
-    "hyena"
+    "hyena",
+    "jackalope"
 ]
 
 export default animals;

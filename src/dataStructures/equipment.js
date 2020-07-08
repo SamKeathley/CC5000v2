@@ -91,33 +91,6 @@ const equipment = [
     "an ancient tome"
 ]
 
-const tools = [
-    "Alchemist's Supplies",
-    "Brewer's Supplies",
-    "Calligrapher's Tools",
-    "Cartographer's Tools",
-    "Clockmaker's Kit",
-    "Cobbler's Tools",
-    "Cook's Utensils",
-    "Glassblower's Tools",
-    "Jeweler's Tools",
-    "Leatherworker's Tools",
-    "Mason's Tools",
-    "Painter's Tools",
-    "Smithing Tools",
-    "Tinker's Tools",
-    "Weaver's Tools",
-    "Woodcarver's Tools",
-    "Disguise Kit",
-    "Forgery Kit",
-    "Herbalism Kit",
-    "Musical Instrument",
-    "Navigator's Tools",
-    "Poisoner's Kit",
-    "Thieves' Tools",
-    "Healer's Kit"
-]
-
-export { weapons, equipment, tools };
+export { weapons, equipment };
 
 
